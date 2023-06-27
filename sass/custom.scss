@@ -42,5 +42,39 @@ $secondary: #14213d;
   z-index: -1;
 }
 
+// style download cards
+.downloadCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 16rem;
+
+  .card-img-top {
+    padding: 2rem 4rem 2rem 4rem;
+  }
+
+  .card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-size: 0.9rem;
+    }
+    a {
+        margin: 1.5rem;
+        font-size: 0.9rem;
+    }
+  }
+}
+
+#firefox {
+  margin-top: 2rem;
+}
+
+#opera {
+  margin-top: 4rem;
+}
+
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";

@@ -38,6 +38,36 @@
   z-index: -1;
 }
 
+.downloadCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 16rem;
+}
+.downloadCard .card-img-top {
+  padding: 2rem 4rem 2rem 4rem;
+}
+.downloadCard .card-body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.downloadCard .card-body p {
+  font-size: 0.9rem;
+}
+.downloadCard .card-body a {
+  margin: 1.5rem;
+  font-size: 0.9rem;
+}
+
+#firefox {
+  margin-top: 2rem;
+}
+
+#opera {
+  margin-top: 4rem;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
