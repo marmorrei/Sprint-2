@@ -21,6 +21,23 @@
   z-index: -1;
 }
 
+.background-shape-left {
+  position: relative;
+  overflow: visible;
+}
+
+.background-shape-left::before {
+  content: "";
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 70%;
+  height: 65%;
+  border-radius: 0 0 100px 0;
+  background-color: #5368df;
+  z-index: -1;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
